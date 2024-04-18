@@ -2,6 +2,13 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'teko', Times, serif;
+font-size: 18px;
+}
+
+header h1{
+    font-size: 32px;
+    font-weight: bolder;
 }
 
 header{
@@ -35,12 +42,16 @@ section .container {
 }
 
 .icons img {
-    height: 30px;
+    height: 42px;
 }
 
 .icons li {
     display: inline;
     margin-right: 8px;
+}
+
+#sobre p {
+    font-size: 20px;
 }
 
 section .container {
@@ -53,6 +64,7 @@ padding: 24px 0;
 
 section h2 {
     margin-bottom: 16px;
+    font-size: 24px;
 }
 
 section {
@@ -109,4 +121,24 @@ form button:hover {
 
 input:focus, textarea:focus{
     outline-color: #ffe15c;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer{
+    background-color: #f5cb0e;
+    color: red;
+    font-weight: 500;
+    padding: 16px 0;
 }
